@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(134, 94, 219);
+}
+.first-btn button {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: 30px;
+  background-color: pink;
+  color: black;
+  border-radius: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.first-btn a:hover {
+  text-decoration: none;
+}
+.form {
+  border: thin solid;
+  width: 350px;
+  text-align: center;
+  height: max-content;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 45px;
+  color: rgb(17, 24, 39);
+}
+.form input {
+  padding: 15px;
+  border-radius: 10px;
+  width: 80%;
+  border: thin solid;
+}
+.form label {
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  margin-left: 40px;
+}
+.form button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 12px;
+  width: 80%;
+  border-radius: 7px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.form button:hover {
+  transform: scale(1.03);
+  opacity: 0.7;
+}
+.form p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 350px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .form {
+    width: 60%;
+    height: auto;
+  }
+
+  .form input,
+  .form button {
+    width: 90%;
+  }
+
+  .form label {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  .form {
+    width: 80%;
+    height: auto;
+  }
+
+  .form input,
+  .form button {
+    width: 95%;
+  }
+
+  .form label {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .first-btn button {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .form {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .form h1 {
+    font-size: 22px;
+  }
+
+  .form input,
+  .form button {
+    width: 100%;
+  }
+
+  .form label {
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+}
+
+:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

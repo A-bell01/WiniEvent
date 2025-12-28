@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../CSS/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <div class="all">
+      <div class="first-btn">
+        <a href="../index.html">
+          <button>
+            <span class="material-symbols-outlined"> arrow_left_alt </span> Back
+          </button>
+        </a>
+      </div>
+
+      <div class="form">
+        <form id="signUpForm">
+          <h1>Create Account</h1>
+          <p>Join WiniBell-Events and start discovering events</p>
+          <br />
+          <label for="name">FULL NAME</label><br />
+          <input
+            required
+            type="text"
+            id="name"
+            name="full name"
+            placeholder="John Doe"
+          /><br /><br />
+          <label for="email">EMAIL ADDRESS</label> <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+          />
+          <br /><br />
+          <label for="password">PASSWORD</label> <br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="......"
+          />
+          <br />
+
+          <button id="submitBtn" type="submit">CREATE ACCOUNT</button>
+          <p>Already have an account? <a href="./login.html">Sign in</a></p>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="../JS/script.js"></script>
+  </body>
+</html>

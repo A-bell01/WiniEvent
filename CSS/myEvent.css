@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: rgb(249, 250, 251);
+}
+nav {
+  background-color: white;
+  width: 100%;
+}
+.nav-con {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.wini-con {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  padding: 8px;
+  gap: 2px;
+  font-weight: 600;
+  line-height: 22px;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(99, 102, 241);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.create-btn:hover {
+  background-color: rgb(72, 74, 240);
+}
+.wini-con a{
+  text-decoration: none;
+}
+.winibell {
+  color: rgb(166, 87, 198);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.my-event {
+  color: rgb(107, 114, 128);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.my-event:hover {
+  color: rgb(99, 102, 241);
+  border-bottom: medium solid;
+  padding-bottom: 8px;
+}
+.my-event:focus{
+  color: rgb(99, 102, 241);
+  border-bottom: medium solid;
+  padding-bottom: 8px;  
+}
+.discover {
+  color: rgb(107, 114, 128);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.discover:hover {
+  color: rgb(99, 102, 241);
+  border-bottom: medium solid;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.user-con {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.user {
+  width: 40px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgb(166, 87, 198);
+}
+.user img {
+  width: 13px;
+  margin-top: 4px;
+  background-color: rgb(166, 87, 198);
+}
+.logout-btn button {
+  padding: 9px;
+  width: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(240, 61, 61);
+  border-radius: 5px;
+  border: thin solid rgb(230, 236, 242);
+  background-color: white;
+  cursor: pointer;
+}
+.logout-btn button:hover {
+  color: white;
+  background-color: rgb(240, 61, 61);
+  transition: 0.3s ease-in-out;
+}
+.my-events {
+    margin: 30px;
+  color: rgb(107, 114, 128);
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  line-height: 22px;
+  cursor: pointer;
+}
+.my-event:hover {
+  color: rgb(99, 102, 241);
+  border-bottom: medium solid;
+}
+.my-events h1 {
+    margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 51px;
+  font-weight: 700;
+  color: 
+rgb(17, 24, 39);
+}
+.my-events p {
+  color: rgb(107, 114, 128);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.my-booking{
+    display: flex;
+    gap: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   font-size: 14px;
+   color: rgb(107, 114, 128); 
+   margin: 50px;
+}
+.content{
+    cursor: pointer;
+
+}
+.content:hover{
+color:rgb(17, 24, 39);
+  transition: 0.3s ease-in-out;
+}
+.content:active{
+    color: rgb(99, 102, 241);
+}

@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.close-btn{
+  margin-top: 5px;
+  margin-left: 30rem;
+}
+.close-btn a{
+  text-decoration: none;
+}
+.close-btn button{
+  display: flex;
+  justify-content: center;
+  border: none;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(236, 238, 240);
+  cursor: pointer;
+}
+
+.top img {
+  width: 12px;
+}
+.top {
+  margin-top: -25px;
+  margin-right: 300px;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  border-radius: 15px;
+  padding: 15px;
+  width: fit-content;
+  height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(17, 24, 39);
+  background-color: rgb(240, 95, 240);
+}
+.container {
+  width: max-content;
+  margin-top: 10px;
+  margin-left: 20rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: thin solid;
+  height: 36rem;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 2px 2px 7px rgb(167, 164, 164);
+}
+.art-con button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+}
+.art-con button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(72, 74, 240);
+  border-radius: 6px;
+  transition: 0.2s ease-in-out;
+  border: none;
+}
+.art-con p {
+  margin: 25px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgb(107, 114, 128);
+  width: 480px;
+}
+.art {
+  margin: 10px;
+}
+.art p{
+  margin: 10px, 20px;
+  padding: 0 15px;
+  color: blue;
+  width: max-content;
+  border-radius: 25px;
+  background-color: rgb(225, 231, 236);
+}
+.events {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgb(249, 250, 251);
+}
+.event {
+  margin: 10px;
+  padding: 5px;
+  color: rgb(107, 114, 128);
+}
+
+@media (max-width: 1200px) {
+  .close-btn {
+    margin-left: 50rem;
+  }
+
+  .art-con p {
+    width: 420px;
+  }
+}
+
+@media (max-width: 992px) {
+  .close-btn {
+    margin-left: 35rem;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .art-con p {
+    width: 350px;
+  }
+
+  .top {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .close-btn {
+    margin-left: 28rem;
+  }
+
+  .container {
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .art-con p {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .top {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .close-btn {
+    margin-left: 20rem;
+  }
+
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .art-con p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .top {
+    font-size: 13px;
+    padding: 10px;
+    gap: 5px;
+  }
+
+  .art-con button {
+    width: 100%;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 400px) {
+  .close-btn {
+    margin-left: 15rem;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .top img {
+    width: 10px;
+  }
+
+  .top {
+    font-size: 12px;
+    height: auto;
+  }
+
+  .art-con p {
+    font-size: 12px;
+  }
+
+  .art-con button {
+    padding: 8px;
+    font-size: 10px;
+  }
+}
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Event</title>
+    <link rel="stylesheet" href="../CSS/createEvent.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-con">
+        <div class="wini-con">
+          <div class="winibell">WiniBell-Events</div>
+          <a href="./discover.html">
+          <div class="discover">Discover</div>
+          </a>
+          <a href="./myEvent.html">
+          <div class="my-event">My Events</div>
+          </a>
+          <div class="create">
+            <button class="create-btn">
+              <span class="material-symbols-outlined" style="font-size: 10px"
+                >add</span
+              >
+              Create Event
+            </button>
+          </div>
+        </div>
+
+        <div class="user-con">
+          <div class="user">
+            <img src="../Images/User image.jpg" alt="" />User
+          </div>
+          <div class="logout-btn">
+            <a href="./homepage.html">
+            <button>Logout</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="create-event">
+      <h1>Create New Event</h1>
+      <p>Fill in the details below to create your event</p>
+    </div>
+
+    <div class="container">
+      <form class="event-form">
+        <div class="row">
+          <div class="field">
+            <label>EVENT TITLE</label>
+            <input type="text" placeholder="Enter event title" />
+          </div>
+
+          <div class="field">
+            <label>CATEGORY</label>
+            <select>
+              <option>Select category</option>
+              <option>Music</option>
+              <option>Sport</option>
+              <option>Technology</option>
+              <option>Business</option>
+              <option>Art & Culture</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>DESCRIPTION</label>
+          <textarea placeholder="Describe your event in detail..."></textarea>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label>LOCATION</label>
+            <input type="text" placeholder="Event location" />
+          </div>
+
+          <div class="field">
+            <label>DATE</label>
+            <input type="date" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label>TIME</label>
+            <input type="time" />
+          </div>
+
+          <div class="field">
+            <label>CAPACITY</label>
+            <input type="number" placeholder="Max attendees" />
+          </div>
+        </div>
+
+        <button type="submit">Create Event</button>
+      </form>
+    </div>
+  </body>
+</html>
